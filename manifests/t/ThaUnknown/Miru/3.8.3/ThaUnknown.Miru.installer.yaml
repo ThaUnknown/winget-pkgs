@@ -1,0 +1,16 @@
+# Created with YamlCreate.ps1 v2.2.1 using InputObject 🤖 $debug=QUSU.CRLF.7-2-10
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.2.0.schema.json
+
+PackageIdentifier: ThaUnknown.Miru
+PackageVersion: 3.8.3
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+Scope: machine
+UpgradeBehavior: install
+ReleaseDate: 2023-04-05
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/ThaUnknown/miru/releases/download/v3.8.3/win-Miru-3.8.3.exe
+  InstallerSha256: 5840F107CDB7A9B17193C786628103F2430F3DA41076214E03BA548E81FFF562
+ManifestType: installer
+ManifestVersion: 1.2.0
